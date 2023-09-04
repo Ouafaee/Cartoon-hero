@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	background-color: limegreen;
+	background-color: #26D29B;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -25,9 +25,9 @@ header h1 {
 }
 
 header img{
-	border-radius: 170px;
+	border-radius: 165px;
 	width: 300px;
-	border:20px solid #D3003C;
+	border:15px solid #EC5808;
 }
 
 main {
@@ -42,7 +42,7 @@ max-width: 100%;
 
 h2{
 font-size:35px ;
-color: ;
+color:#EC5808 ;
 margin: 40px 0 10px;
 }
 
@@ -55,11 +55,11 @@ a{
 a:hover{
 	color: white ;
 	/*we can add a background color*/
-	background-color:teal ;
+	background-color:#EC5808 ;
 }
 
 footer{
-	background-color:limegreen ;
+	background-color:#26D29B ;
 	text-align: center ;
 	color: white ;
 	padding: 50px;
@@ -74,10 +74,6 @@ footer a {
 	color: ;
 }
 
-footer a:hover{
-	opacity: ;
-	background-color: ;
-}
 
 .caption{
 	color: slategrey;
