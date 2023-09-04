@@ -48,14 +48,14 @@ margin: 40px 0 10px;
 
 /*property for a element*/
 a{
-	color: ;
+	color: darkmagenta ;
 }
 
 /*proprerty that will change the color of a link when you hover above it*/
 a:hover{
-	color: ;
+	color: white ;
 	/*we can add a background color*/
-	background-color: ;
+	background-color:teal ;
 }
 
 footer{
@@ -79,10 +79,11 @@ footer a:hover{
 	background-color: ;
 }
 
-p.caption{
+.caption{
 	color: slategrey;
 	font-style: italic;
 	margin-top: 0;
+	text-align: center;
 }
 
 
