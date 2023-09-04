@@ -1,18 +1,91 @@
 body {
 	margin: 0;
+	font-family:'Helvetica', 'Arial', sans-serif ; /*you can write the font with quotes around it or not*/
+	font-size: 20px;
+	line-height: 30px;
+
 }
 
 header {
 	background-color: limegreen;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2 {
+	/*google font*/
+	font-family: 'Black Ops One', cursive;
+	font-family: 'Yatra One', cursive;
 }
 
 header h1 {
 	color: white;
+	font-size: 80px;
 }
 
 header img{
-	border-radius: 150px;
+	border-radius: 170px;
 	width: 300px;
 	border:20px solid #D3003C;
 }
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+max-width: 100%;
+}
+
+h2{
+font-size:35px ;
+color: ;
+margin: 40px 0 10px;
+}
+
+/*property for a element*/
+a{
+	color: ;
+}
+
+/*proprerty that will change the color of a link when you hover above it*/
+a:hover{
+	color: ;
+	/*we can add a background color*/
+	background-color: ;
+}
+
+footer{
+	background-color:limegreen ;
+	text-align: center ;
+	color: white ;
+	padding: 50px;
+}
+
+footer p{
+	margin:0;
+}
+
+/*if there is a link in the footer*/
+footer a {
+	color: ;
+}
+
+footer a:hover{
+	opacity: ;
+	background-color: ;
+}
+
+p.caption{
+	color: slategrey;
+	font-style: italic;
+	margin-top: 0;
+}
+
+
+
+
+
