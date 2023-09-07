@@ -3,14 +3,8 @@ body {
 	font-family:'Helvetica', 'Arial', sans-serif ; /*you can write the font with quotes around it or not*/
 	font-size: 20px;
 	line-height: 30px;
-
 }
 
-h1, h2 {
-	/*google font*/
-	font-family: 'Black Ops One', cursive;
-	font-family: 'Yatra One', cursive;
-}
 
 header h1 {
 	color: revert-layer;
@@ -18,7 +12,9 @@ header h1 {
 	position: absolute;
   	top: 50%;
   	left: 50%;
-  	transform: translate(-140%, -500%);
+  	transform: translate(-110%, -500%);
+  	/*google font*/
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 header img{
@@ -43,24 +39,27 @@ max-width: 100%;
 
 h2{
 font-size:35px ;
-color:#EC5808 ;
+color:#e40000 ;
 margin: 40px 0 10px;
+	/*google font*/
+font-family: 'Black Ops One', cursive;
+font-family: 'Yatra One', cursive;
 }
 
 /*property for a element*/
 a{
-	color: darkmagenta ;
+	color: #0e2dd8 ;
 }
 
 /*proprerty that will change the color of a link when you hover above it*/
 a:hover{
 	color: white ;
 	/*we can add a background color*/
-	background-color:#EC5808 ;
+	background-color:#e40000 ;
 }
 
 footer{
-	background-color:#26D29B ;
+	background-color: #268ee6 ;
 	text-align: center ;
 	color: white ;
 	padding: 50px;
@@ -70,8 +69,13 @@ footer p{
 	margin:0;
 }
 
+footer a{
+	color:#e40000;
+}
 
-
+footer a:hover{
+	background-color:#0e2dd8 ;
+}
 .caption{
 	color: slategrey;
 	font-style: italic;
